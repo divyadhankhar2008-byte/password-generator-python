@@ -1,7 +1,12 @@
 🔒 Enterprise Random Password Generator
+
 Project 3 - DecodeLabs Industrial Training Kit
+
 Batch: 2026 | Powered by: DecodeLabs
+
 Author: Divya Dhankhar
+
+
 📋 Project Overview
 This is an enterprise-grade random password generator built as part of the DecodeLabs Python Programming Industrial Training Kit. The project demonstrates mastery of:
 Library Integration (secrets and string modules)
@@ -9,29 +14,39 @@ String Manipulation (optimized with .join())
 Input Validation (NIST 2024 compliance)
 Cryptographic Security (hardware-level entropy)
 Algorithm Optimization (O(N) time complexity)
+
+
 🎯 Project Goals
 As outlined in the training materials, this project teaches:
 Module Importing: Proper use of Python's built-in libraries
 Security Fundamentals: Moving from predictable random to cryptographically secure secrets
 Professional Engineering: Transitioning from isolated scripts to enterprise systems
 Input-Process-Output Architecture: Structured approach to software design
+
+
 🛡️ Key Features
 Security Features
 ✅ Cryptographically Secure: Uses secrets.choice() instead of random.choice()
 ✅ Hardware-Level Entropy: Taps into OS's highest-quality entropy sources
 ✅ NIST 2024 Compliant: Minimum 15 characters, supports up to 64 characters
 ✅ Unpredictable Output: No Mersenne Twister vulnerabilities
+
+
 Technical Features
 ✅ Optimized Performance: O(N) time complexity using .join()
 ✅ Validated Input: Rigorous validation prevents system crashes
 ✅ Guaranteed Complexity: Ensures at least one lowercase, uppercase, and digit
 ✅ Entropy Calculation: Mathematical security analysis (E = L × log₂(R))
 ✅ Special Characters: Optional inclusion of punctuation symbols
+
+
 User Experience
 ✅ Interactive CLI: Clear prompts and error messages
 ✅ Security Analysis: Real-time entropy and crack time estimation
 ✅ Best Practice Guidance: Tips for password management
 🚀 Getting Started
+
+
 Prerequisites
 Python 3.6 or higher (for secrets module support)
 No external dependencies required (uses built-in modules only)
@@ -43,6 +58,8 @@ Run the password generator:
 Bash
 Or on some systems:
 Bash
+
+
 📐 Architecture
 The project follows the Input-Process-Output architectural scaffold:
 Phase 1: Input (Environmental Requirements)
@@ -102,7 +119,9 @@ Professional Engineering - Documentation and optimization
 📊 Project Structure
 Code
 👤 Author
-Divya Dhankhar
+
+
+Divya Bharti 
 GitHub: @divyadhankhar2008-byte
 Project: DecodeLabs Industrial Training Kit - Batch 2026
 📞 Contact
